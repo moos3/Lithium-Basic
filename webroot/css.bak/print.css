@@ -1,0 +1,125 @@
+@charset "utf-8";
+/* ---------------------------------------------------------------------------
+
+	CSS PRINT STYLES: @2009 by Glenn McKeown
+	for My Word - Version 1.0
+
+*/
+
+/* ---------------------------------------------------------------------------
+	LAYOUT
+*/
+
+html {
+	background:white;
+	color:#000;
+	}
+#wrapper {
+	border:none;
+	margin:0 5%;
+	padding:0;
+	width:auto;
+	}
+#header, #content, #footer {
+	background:white;
+	float:none;
+	margin-left:10%;
+	}
+.row, .col-min, .col-mid, .col-max {
+	float:none;
+	}
+
+/* ---------------------------------------------------------------------------
+	TYPOGRAPHY STYLES
+*/
+
+body {
+	font-family: Tahoma, Verdana, Arial, sans-serif;
+	font-size:14px;
+	font-weight:normal;
+	line-height:20px;
+	}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: bold;
+	}
+h1 {
+	font-size:48px;
+	line-height:48px;
+	}
+h2 {
+	font-size:28px;
+	line-height:28px;
+	padding:0 0 10px 0;
+	}
+h3 {
+	font-size:16px;
+	line-height:20px;
+	padding:0 0 5px 0;
+	}
+p {
+	padding:0 0 20px 0;
+	}
+a:link, a:visited {
+	color:#520;
+	background:transparent;
+	font-weight:bold;
+	text-decoration:underline;
+	}
+b, strong {
+	font-weight:bold;
+	}
+i, em {
+	font-style:italic;
+	}
+small {
+	font-size:13px;
+	}
+	small span {
+		color:#222;
+		}
+big {
+	color:#222;
+	float:none;
+	font-size:16px;
+	font-style:italic;
+	letter-spacing:1px;
+	line-height:22px;
+	padding:30px 0;
+	}
+
+/* ---------------------------------------------------------------------------
+	LISTS STYLES
+*/
+
+ul {
+	margin:0 0 20px 0;
+	}
+ul li {
+	line-height:20px;
+	}
+	.spaced li {
+	line-height:20px;
+	list-style:inside square;
+	margin:0 0 20px 0;
+	}
+#contact {
+	float:none;
+	margin-top:10px;
+	}
+	#contact dt {
+		color:#222;
+		font-style:italic;
+		}
+	#contact dd {
+		}
+
+/* ---------------------------------------------------------------------------
+	OTHER STYLES
+*/	
+
+.date {
+	color:#222;
+	}
+.no-print {
+	display:none;
+	}

@@ -1,0 +1,125 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"> 
+  <head> 
+    <title>g.NET - Richard Genthner</title> 
+    <link rel="stylesheet" href="/css/base.css" type="text/css" /> 
+    <link rel="openid.server" href="http://www.myopenid.com/server" /> 
+    <link rel="openid.delegate" href="http://bitsweat.myopenid.com/" /> 
+    <link rel="openid2.local_id" href="http://bitsweat.myopenid.com" /> 
+    <link rel="openid2.provider" href="http://www.myopenid.com/server" /> 
+    <meta http-equiv="X-XRDS-Location" content="http://www.myopenid.com/xrds?username=moos3.myopenid.com" /> 
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript"> 
+	$(document).ready(function(){
+		//To switch directions up/down and left/right just place a "-" in front of the top/left attribute
+		//Vertical Sliding
+		$('.boxgrid.slidedown').hover(function(){
+			$(".cover", this).stop().animate({top:'-260px'},{queue:false,duration:300});
+		}, function() {
+			$(".cover", this).stop().animate({top:'0px'},{queue:false,duration:300});
+		});
+		//Horizontal Sliding
+		$('.boxgrid.slideright').hover(function(){
+			$(".cover", this).stop().animate({left:'325px'},{queue:false,duration:300});
+		}, function() {
+			$(".cover", this).stop().animate({left:'0px'},{queue:false,duration:300});
+		});
+		//Diagnal Sliding
+		$('.boxgrid.thecombo').hover(function(){
+			$(".cover", this).stop().animate({top:'260px', left:'325px'},{queue:false,duration:300});
+		}, function() {
+			$(".cover", this).stop().animate({top:'0px', left:'0px'},{queue:false,duration:300});
+		});
+		//Partial Sliding (Only show some of background)
+		$('.boxgrid.peek').hover(function(){
+			$(".cover", this).stop().animate({top:'90px'},{queue:false,duration:160});
+		}, function() {
+			$(".cover", this).stop().animate({top:'0px'},{queue:false,duration:160});
+		});
+		//Full Caption Sliding (Hidden to Visible)
+		$('.boxgrid.captionfull').hover(function(){
+			$(".cover", this).stop().animate({top:'160px'},{queue:false,duration:160});
+		}, function() {
+			$(".cover", this).stop().animate({top:'260px'},{queue:false,duration:160});
+		});
+		//Caption Sliding (Partially Hidden to Visible)
+		$('.boxgrid.caption').hover(function(){
+			$(".cover", this).stop().animate({top:'160px'},{queue:false,duration:160});
+		}, function() {
+			$(".cover", this).stop().animate({top:'220px'},{queue:false,duration:160});
+		});
+	});
+    </script> 
+  </head> 
+  <body> 
+    <h1><abbr title="Richard Genthner &lt;richard@guthnur.net&gt;">I</abbr> Manage <a href="http://www.symplicity.com/">Systems</a> & <a href="http://blog.guthnur.net/">Code</a>.</h1> 
+ 
+    <div class="boxgrid caption">
+	<img src="/img/code/moos3_m.png" />
+	<div class="cover boxcaption">
+		<h3>Test</h3>
+		<p>test<br/><a href="/code/src.php?filename=bob.php" target="_blank">sample1</a> | <a href="/code/src.php?filename=sample.php" target="_blank">Sample2</a></p>
+	</div>
+    </div>    
+    <div class="boxgrid caption">
+	<img src="/img/code/codex_m.png" />
+	<div class="cover boxcaption">
+		<h3>Custom PHP Framework</h3>
+		<p>test<br/><a href="/code/src.php?filename=bob.php" target="_blank">sample1</a> | <a href="/code/src.php?filename=sample.php" target="_blank">Sample2</a></p>
+	</div>
+    </div>
+    <div class="boxgrid caption">
+	<img src="/img/code/vcs_m.png" />
+	<div class="cover boxcaption">
+		<h3>Comments Map Marsh Up</h3>
+		<p>test<br/><a href="/code/src.php?filename=bob.php" target="_blank">sample1</a> | <a href="/code/src.php?filename=sample.php" target="_blank">Sample2</a></p>
+	</div>
+    </div>    
+    <div class="boxgrid slideright">
+	<img class="cover" src="/img/code/downeast_m.png" />
+		<h3>Sample Site For LandSacping</h3>
+		<p>test<br/><a href="/code/src.php?filename=bob.php" target="_blank">sample1</a> | <a href="/code/src.php?filename=sample.php" target="_blank">Sample2</a></p>
+    </div>
+    <div class="boxgrid caption">
+	<img src="/img/code/icst_m.png" />
+	<div class="cover boxcaption">
+		<h3>iCST CMS</h3>
+		<p>test<br/><a href="/code/src.php?filename=bob.php" target="_blank">sample1</a> | <a href="/code/src.php?filename=sample.php" target="_blank">Sample2</a></p>
+	</div>
+    </div>
+    <div class="boxgrid caption">
+	<img src="/img/code/scenicmaine_m.png" />
+	<div class="cover boxcaption">
+		<h3>Photographers Blog</h3>
+		<p>test<br/><a href="/code/src.php?filename=bob.php" target="_blank">sample1</a> | <a href="/code/src.php?filename=sample.php" target="_blank">Sample2</a></p>
+	</div>
+    </div> 
+    <div class="boxgrid caption">
+	<img src="/img/code/forestlodge_m.png" />
+	<div class="cover boxcaption">
+		<h3>Non-profit Membership System</h3>
+		<p>test<br/><a href="/code/src.php?filename=bob.php" target="_blank">sample1</a> | <a href="/code/src.php?filename=sample.php" target="_blank">Sample2</a></p>
+	</div>
+    </div>
+    <div class="boxgrid caption">
+	<img src="/img/code/canduru_m.png" />
+	<div class="cover boxcaption">
+		<h3>ZenCart Custom Modifications</h3>
+		<p>test<br/><a href="/code/src.php?filename=bob.php" target="_blank">sample1</a> | <a href="/code/src.php?filename=sample.php" target="_blank">Sample2</a></p>
+	</div>
+    </div>
+    <div class="boxgrid caption">
+	<img src="/img/code/cluster_monitor_m.png" />
+	<div class="cover boxcaption">
+		<h3>Custom Cluster Monitor</h3>
+		<p>test<br/><a href="/code/src.php?filename=bob.php" target="_blank">sample1</a> | <a href="/code/src.php?filename=sample.php" target="_blank">Sample2</a></p>
+	</div>
+    </div>  
+    <br/>
+    <div id="mini_div">
+      <a href="/resume.html">Resume</a> | <a href="http://code.guthnur.net">Code Bin</a> | <a href="http://blog.guthnur.net">Blog</a> | <a href="http://family.guthnur.net">Family</a>
+    </div>
+    <script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script> 
+    <script type="text/javascript" src="http://twitter.com/statuses/user_timeline/moos3.json?callback=twitterCallback2&amp;count=5"></script> 
+  </body> 
+</html> 

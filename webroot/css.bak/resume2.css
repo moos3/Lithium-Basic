@@ -1,0 +1,199 @@
+@charset "utf-8";
+/* ---------------------------------------------------------------------------
+
+	CSS BASE STYLES: @2009 by Glenn McKeown
+	for My Word - Version 1.0
+
+*/
+
+/* ---------------------------------------------------------------------------
+	LAYOUT
+*/
+
+html {
+	background:#FFF;
+	}
+#wrapper {
+	background-color:#fff;
+	margin:50px auto;
+	overflow:hidden;
+	padding:0;
+	width:903px;
+	}
+#header {
+	float:left;
+	padding:40px 40px 0 40px;
+	overflow:hidden;
+	width:823px;
+	}
+	#title {
+		float:left;
+		}
+#content {
+	float:left;
+	padding:0 30px;
+	width:843px;
+	}
+#footer {
+	float:left;
+	padding:0 30px;
+	width:843px;
+	}
+.row {
+	float:left;
+	margin:20px 0 0 0;
+	width:843px;
+	}
+	.col-min {
+		float:left;
+		margin:0 10px;
+		width:260px;
+		}
+	.col-mid {
+		float:left;
+		margin:0 10px;
+		width:540px;
+		}
+	.col-max {
+		float:left;
+		margin:0 10px;
+		width:820px;
+		}
+
+/* ---------------------------------------------------------------------------
+	TYPOGRAPHY STYLES
+*/
+
+body {
+	color:#333;
+	font-family: Tahoma, Verdana, Arial, sans-serif;
+	font-size:14px;
+	font-weight:normal;
+	line-height:20px;
+	}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: bold;
+	}
+h1 {
+	color:#333;
+	font-size:48px;
+	line-height:48px;
+	}
+h2 {
+	color:#5274b7;
+	font-size:28px;
+	line-height:28px;
+	padding:0 0 10px 0;
+	}
+h3 {
+	color:#333;
+	font-size:16px;
+	line-height:20px;
+	padding:0 0 5px 0;
+	}
+p {
+	padding:0 0 20px 0;
+	}
+a {
+	color:#5274b7;
+	}
+a:link {
+	text-decoration:underline;
+	}
+a:visited {
+	text-decoration:underline;
+	}
+a:hover {
+	text-decoration:none;
+	}
+a:active {
+	text-decoration:none;
+	}
+a:focus {
+	outline:none;
+	}
+b, strong {
+	font-weight:bold;
+	}
+i, em {
+	font-style:italic;
+	}
+small {
+	font-size:13px;
+	}
+	small span {
+		color:#5274b7;
+		}
+big {
+	clear:both;
+	color:#888;
+	float:left;
+	font-size:16px;
+	font-style:italic;
+	letter-spacing:1px;
+	line-height:22px;
+	padding:30px 0 10px 0;
+	width:100%;
+	}
+
+/* ---------------------------------------------------------------------------
+	LISTS STYLES
+*/
+
+ul {
+	padding:0 0 20px 0;
+	}
+ul li {
+	line-height:20px;
+	padding:0;
+	}
+	.spaced li {
+	line-height:20px;
+	list-style:inside square;
+	padding:0 0 20px 0;
+	}
+#contact {
+	float:right;
+	padding-top:10px;
+	width:300px;
+	}
+	#contact dt {
+		color:#888;
+		float:left;
+		font-style:italic;
+		padding-right:10px;
+		text-align:right;
+		width:60px;
+		}
+	#contact dd {
+		float:left;
+		width:230px;
+		}
+
+/* ---------------------------------------------------------------------------
+	OTHER STYLES
+*/	
+
+.date {
+	color:#888;
+	padding:0;
+	}
+
+/* ----------------------------------------------------------------------------
+	Download Message
+*/
+#message_box {
+	position: absolute;
+	top: 0; left: 5%;
+	z-index: 10;
+		background: #ffc;
+		padding: 5px;
+	border:1px solid #CCC;
+	text-align:center;
+	font-weight:bold;
+	width:90%;
+}
+#close_message {
+	float:right;
+	cursor:pointer;
+}

@@ -1,0 +1,153 @@
+body { padding: 10% 0; color: #333; background-color: #fff;
+  font-family: Georgia, "Times New Roman", Times, serif; 
+/*  background-image:url('/img/coffee.jpg'); background-repeat:no-repeat; 
+  background-attachment:fixed; background-position:center; */
+}
+h1 { font-size: 40pt; font-weight: normal; text-align: center; }
+a { color: #003399; background-color: inherit; text-decoration: none; }
+a:hover { color: #0000FF; background-color: inherit; }
+div#twitter_div { margin: 20px auto; width: 40%; font-size: 10pt; }
+div#mini_div { margin:20px auto; width: 50%; font-size: 9pt; text-align:center; }
+#mini_div a { color:#B5B5B5; }
+#mini_div a:hover { color:#BABABA; }
+
+.boxgrid{ width: 325px;	height: 260px; margin:10px; float:left; background:#161613; border: solid 2px #8399AF; overflow: hidden; position: relative; }
+.boxgrid img{ position: absolute; top: 0; left: 0; border: 0; }
+.boxgrid p{ padding: 0 10px; color:#afafaf; font-weight:bold; font:10pt "Lucida Grande", Arial, sans-serif; }
+.boxcaption{ float: left; position: absolute; background: #000; height: 100px; width: 100%; opacity: .8; /* For IE 5-7 */filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=80);/* For IE 8 */-MS-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";}
+.captionfull .boxcaption { top: 260; left: 0;}
+.caption .boxcaption {top: 220;	left: 0;}
+.boxgrid h3{ margin: 10px 10px 0 10px; color:#FFF; font:18pt Arial, sans-serif; letter-spacing:-1px; font-weight: bold;  }
+.boxgrid a{ color:#C8DCE5; }
+.boxgrid a:hover{ color: #C8DCE5; }
+
+#divContainer { width:800px; margin:0px auto; }
+#spnTitle { float:left; width:50%; font-weight:bold; font-size:16px; }
+#spnFeedURL { float:left; width:50%; text-align:right; }
+#btnLoad { height:21px; }
+#inpURL { width:250px; }
+/* RSS */
+.cRSSReader { border:1px solid #ccc; clear:both; }
+.cRSSReader .cRSSList { height:200px; overflow-y:scroll; }
+.cRSSReader .cRSSList ul { list-style-type:none; margin:0px; padding:0px; }
+.cRSSReader .cRSSList .cHeadline{ font-weight:bold; font-size:1.2em; color:#000; }
+.cRSSReader .cRSSList .cByline { color:#555; }
+.cRSSReader .cRSSList a { display:block; padding:3px 8px; }
+.cRSSReader .cRSSList a:hover { text-decoration:none; background-color:#ddd; }
+.cSelectedRSSItem { background-color:#ddd; }
+.cRSSReader .cRSSContent { border-top:1px solid #aaa; padding:10px; }
+
+
+.dash {
+	width: 110px;
+	height: 114px;
+	background: transparent url('../img/dash.png') 0 0 no-repeat;
+	float: left;
+	margin-left: 20px;
+	position: relative;
+}
+
+.dash .digit {
+	font-size: 55pt;
+	font-weight: bold;
+	float: left;
+	width: 55px;
+	text-align: center;
+	font-family: Times;
+	color: #555;
+	position: relative;
+}
+
+.dash_title {
+	position: absolute;
+	display: block;
+	bottom: 0px;
+	right: 6px;
+	font-size: 9pt;
+	color: #555;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.dev_comment {
+	font-size: 14pt;
+	color: #777;
+	text-align: center;
+	font-style: italic;
+	margin: 40px 10px;
+}
+
+#subscribe_form {
+	position: relative;
+} 
+
+#email_field {
+	font-size: 16pt;
+	padding: 6px 10px;
+	width: 300px;
+}
+
+#subscribe_button {
+	font-size: 14pt;
+	color: #333;
+	padding: 4px 8px;
+}
+
+.copyright {
+	font-size: 9pt;
+	color: #333;
+	margin: 40px 0px;
+}
+
+.faded {
+	color: #999;
+}
+
+.form_message {
+	width: 400px;
+	padding: 10px;
+	margin: 15px auto;
+	display: none;
+}
+
+#error_message {
+	background-color: #ffe;
+	border-left: 5px solid #bb3;
+	border-right: 5px solid #bb3;
+	color: #770;
+}
+
+#info_message {
+	background-color: #f0f9ff;
+	border: 1px solid #eef;
+}
+
+#loading {
+	text-align: center;
+	margin: 10px;
+	display: none;
+	position: absolute;
+	width: 100%;
+	top: 60px;
+}
+
+.error, .success, .info{
+	border: 1px solid;
+	width: 600px;
+	margin: 10px auto;
+	padding: 15px 10px 10px 10px;
+	background-repeat: no-repeat;
+	background-position: 10px center;
+}
+.info{
+	color: #00529B;
+	background-color: #BDE5F8;
+}
+.error{
+	color: #d8000c;
+	background-color: #ffbaba;
+}
+.success{
+	color: #4f8a10;
+	background-color: #DFF2BF;
+}

@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* ---------------------------------------------------------------------------
+
+	INTERNET EXPLORER 6 STYLES: @2009 by Glenn McKeown
+	for My Word - Version 1.0
+
+*/
+
+.col-min, .col-mid, .col-max {
+	display:inline;
+	}
+
+html {
+	padding-bottom: 50px;
+	}
