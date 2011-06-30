@@ -6,14 +6,14 @@ class PagesController extends \lithium\action\Controller {
 
 	public function view() {
 		$path = func_get_args();
-		
+		var_dump($path);
 		if (empty($path)) {
 			$path = array('index');
 		}
 		if ($path[0] == 'resume'){
 			$this->_render['layout'] = 'resume';
 		}
-			$this->render(array('template' => join('/', $path)));
+		$this->render(array('template' => join('/', $path)));
 	}
 }
 
