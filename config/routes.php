@@ -14,6 +14,7 @@ Router::connect('/', array('Pages::view', 'args' => array('index')));
 Router::connect('/keys', array('Pages::view', 'args' => array('keys')));
 Router::connect('/resume', array('Pages::view', 'args' => array('resume')));
 Router::connect('/social',array('Pages::view','args' => array('feeds')));
+Router::connect('/family',array('Pages::view','args' => array('family')));
 
 Router::connect('/login', array('Users::login'));
 Router::connect('/logout', array('Users::logout'));
