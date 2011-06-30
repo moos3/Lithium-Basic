@@ -91,7 +91,7 @@ require __DIR__ . '/bootstrap/media.php';
 /**
  * This file configures error handler.
 */
-//require __DIR__ . '/bootstrap/error.php';
+require __DIR__ . '/bootstrap/error.php';
 
 define('SECURITY_SALT', 'chou*laprienL&foapoucriuPriuhlafriasp&a$iafri9jiesiecluxoe$r$2fi');
 
