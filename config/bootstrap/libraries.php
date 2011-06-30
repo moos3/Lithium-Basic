@@ -57,4 +57,5 @@ Libraries::add('app', array('default' => true));
 // Libraries::add('li3_docs');
 //Libraries::add('li3_access');
 //Libraries::add('lithium_textmate');
+Libraries::add('li3_rest');
 ?>
