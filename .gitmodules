@@ -1,0 +1,6 @@
+[submodule "libraries/li3_rest"]
+	path = libraries/li3_rest
+	url = https://github.com/daschl/li3_rest.git
+[submodule "libraries/li3_oauth"]
+	path = libraries/li3_oauth
+	url = https://github.com/gwoo/li3_oauth.git
