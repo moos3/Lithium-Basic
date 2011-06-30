@@ -6,7 +6,6 @@ class PagesController extends \lithium\action\Controller {
 
 	public function view() {
 		$path = func_get_args();
-		var_dump($path);
 		if (empty($path)) {
 			$path = array('index');
 		}
