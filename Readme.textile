@@ -1,0 +1,1 @@
+This a simple CMS that i wrote in lithium to give the community a example. It requires mongodb and lithium framework to be checked out also. I has a ckeditor built in for the blog posts and comments.
